@@ -42,7 +42,7 @@ body {
 }
 
 #img-div {
-  background-color: rgb(187, 187, 187);
+  background-color: rgb(216, 166, 166);
   padding: 10px;
   margin: auto;
   border-radius: 5px;
@@ -54,6 +54,7 @@ body {
   max-width: fit-content;
   width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 #img-caption {
