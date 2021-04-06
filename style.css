@@ -9,14 +9,19 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: rgb(70, 59, 47);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 li {
-  float: left;
+  display: inline-block;
 }
 
 li a {
-  display: block;
+  display: inline-block;
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
@@ -31,7 +36,8 @@ li a:hover {
   background-color: rgb(207, 207, 184);
   color: rgb(0, 0, 0);
   text-align: center;
-  padding: 5px 0 5px 0;
+  margin-top: 55px;
+  padding: 5px 5px 5px 5px;
   border-radius: 5px;
 }
 
@@ -47,3 +53,9 @@ li a:hover {
     border-radius: 5px;
     background: #eee;
 } */
+
+@media screen and (max-width: 480px) {
+  li {
+      font-size: 12px;
+  }
+}
